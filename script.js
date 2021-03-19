@@ -14,7 +14,7 @@ var years= document.getElementById("years").value;
 var interest = principalN * years * rateN / 100;
 var interestN = parseInt(interest);
 
-var amount = principalN + interestN;
+var amount = interestN;
 
 var date = new Date();
 var currentYear = parseInt(date.getFullYear());
